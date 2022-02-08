@@ -1,73 +1,38 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+# MATH MAGICIANS
+> Math magicians is the react project that provides users with the arithmetic operations. It was built with a good UI and easily understand by users. It perform can use as calculator on a website and computer system.
 
-# Project Name
-
-> Description the project.
-
+![Screenshot (88)](https://user-images.githubusercontent.com/61976324/152863444-fb10ce8a-3b72-4fd1-bfab-b31e77904cc8.png)
 
 ## Built With
+- HTML & CSS & JavaScript
+- Html, Css & JavaScript linters
+- React and react-Redux
+- React and react-Redux linters
 
-- Major languages
-- Frameworks
-- Technologies used
+##### Getting Started
+- clone the repository by running\
+    `git clone https://github.com/oyelakinG9/math-magicians.git`
+- navigate to the folder\
+    `cd math-magicians`
+- Install packages\
+    `npm install`
+- Run the app\
+    `npm start`
+- Create build app\
+    `npm run build`
+- Test Linters app\
+    `npm run check-linters`
+## Author
 
-## Live Demo (if available)
+👤 **Oyelakin Ridwan Adio**
+- GitHub: [@oyelakin](https://github.com/oyelakinG9)
+- Twitter: [@oyelakin](https://twitter.com/OyelakinG1)
+- LinkedIn: [@oyelakin](https://www.linkedin.com/in/oyelakin-ridwan-4b4a02b6/)
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
+## :handshake: Contributing
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
 ## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
+Give a :star:️ if you like this project!
+## :memo: License
 This project is [MIT](./MIT.md) licensed.
