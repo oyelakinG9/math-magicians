@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
   font-family: sans-serif;
@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .calculator-container {
@@ -26,15 +26,15 @@ body {
 }
 
 input[type="text"] {
-    align-items: flex-end;
-    height: 3em;
-    width: 100%;
-    background: gray;
-    outline: none;
-    border: none;
-    text-align: right;
-    color: #fff;
-    font-size: 23px;
+  align-items: flex-end;
+  height: 3em;
+  width: 100%;
+  background: gray;
+  outline: none;
+  border: none;
+  text-align: right;
+  color: #fff;
+  font-size: 23px;
 }
 
 .keypad {
@@ -46,9 +46,9 @@ input[type="text"] {
 }
 
 button {
-    outline: none;
-    cursor: pointer;
-    border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #fff;
 }
 
 #zero {
