@@ -4,6 +4,7 @@
 > Math magicians is the react project that provides users with the arithmetic operations. It was built with a good UI and easily understand by users. It can use as calculator on a website and computer system.
 
 > Addition of class based componenets to decalare stateful statemnet  
+> Addition of refactor with hooks to declare stateful statement.
 
 ![Screenshot (89)](https://user-images.githubusercontent.com/61976324/153071949-5fba533a-39da-4267-8311-87156ff83a51.png)
 
