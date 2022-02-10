@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # MATH MAGICIANS (Componenets)
-> Math magicians is the react project that provides users with the arithmetic operations. It was built with a good UI and easily understand by users. It perform can use as calculator on a website and computer system.
+> Math magicians is the react project that provides users with the arithmetic operations. It was built with a good UI and easily understand by users. It can use as calculator on a website and computer system.
 
 > Addition of class based componenets to decalare stateful statemnet  
 
