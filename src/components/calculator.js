@@ -21,6 +21,7 @@ const Calculator = () => {
   };
   return (
     <>
+      <h3>Let&apos;s do some math</h3>
       <div className="calculator-container">
         <input type="text" id="result" value={(showTotal()) + (operation || '') + (next || '')} disable />
         <div className="keypad">
