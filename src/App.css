@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@700&family=Kalam:wght@300&family=Poppins:ital,wght@0,200;1,200&family=Roboto:wght@700&family=Varela+Round&display=swap');
+
+* {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  padding: 2% 5%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  position: absolute;
+  right: 13em;
+  top: 1em;
+}
+
+.navBar {
+  display: flex;
+  list-style: none;
+}
