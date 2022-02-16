@@ -46,3 +46,19 @@ test("adds 1 + 2 to equal 3", () => {
   const buttonName = "0";
   expect(calculate(obj, buttonName)).toEqual(empty);
 });
+
+test("adds 1 + 2 to equal 3", () => {
+    const obj = {
+      total: "6",
+      next: "6",
+      operation: "+",
+    };
+  
+    const dot = { 
+      total: "6",
+      next: "6.",
+      operation: "+",
+    };
+    const buttonName = ".";
+    expect(calculate(obj, buttonName)).toEqual(dot);
+  });
