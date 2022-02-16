@@ -1,9 +1,7 @@
-import React, { useState } from "react";
-import { render, fireEvent } from "@testing-library/react";
 import operate from "../logic/operate";
 import calculate from "../logic/calculate";
 
-test("adds 1 + 2 to equal 3", () => {
+test("Delete all values in object", () => {
   const obj = {
     total: "1",
     next: "2",
@@ -19,7 +17,7 @@ test("adds 1 + 2 to equal 3", () => {
   expect(calculate(obj, buttonName)).toEqual(deleted);
 });
 
-test("adds 1 + 2 to equal 3", () => {
+test("Call to operate function and store answer on object total", () => {
   const obj = {
     total: "1",
     next: "2",
@@ -35,7 +33,7 @@ test("adds 1 + 2 to equal 3", () => {
   expect(calculate(obj, buttonName)).toEqual(equal);
 });
 
-test("adds 1 + 2 to equal 3", () => {
+test("Return an empty array", () => {
   const obj = {
     total: "1",
     next: "0",
@@ -47,18 +45,18 @@ test("adds 1 + 2 to equal 3", () => {
   expect(calculate(obj, buttonName)).toEqual(empty);
 });
 
-test("adds 1 + 2 to equal 3", () => {
-    const obj = {
-      total: "6",
-      next: "6",
-      operation: "+",
-    };
-  
-    const dot = { 
-      total: "6",
-      next: "6.",
-      operation: "+",
-    };
-    const buttonName = ".";
-    expect(calculate(obj, buttonName)).toEqual(dot);
-  });
+test("adds . to obj next", () => {
+  const obj = {
+    total: "6",
+    next: "6",
+    operation: "+",
+  };
+
+  const dot = {
+    total: "6",
+    next: "6.",
+    operation: "+",
+  };
+  const buttonName = ".";
+  expect(calculate(obj, buttonName)).toEqual(dot);
+});
