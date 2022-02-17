@@ -27,12 +27,21 @@
     `npm run build`
 - Test Linters app\
     `npm run check-linters`
+- To test app\
+     `npm run test`    
 ## Author
 
 👤 **Oyelakin Ridwan Adio**
 - GitHub: [@oyelakin](https://github.com/oyelakinG9)
 - Twitter: [@oyelakin](https://twitter.com/OyelakinG1)
 - LinkedIn: [@oyelakin](https://www.linkedin.com/in/oyelakin-ridwan-4b4a02b6/)
+
+👤 **Mar Bautista**
+
+- GitHub: [@marilirulita](https://github.com/marilirulita)
+- Twitter: [@marylirulita](https://twitter.com/marylirulita)
+- LinkedIn: [mar-bautista](https://www.linkedin.com/in/marbautista/)
+
 
 ## :handshake: Contributing
 Contributions, issues, and feature requests are welcome!

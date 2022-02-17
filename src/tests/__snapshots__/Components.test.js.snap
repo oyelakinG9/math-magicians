@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculator function testing Test managment of buttons 1`] = `
+<button
+  name="7"
+  type="button"
+>
+  7
+</button>
+`;
+
+exports[`calculator function testing test 5 + 4 to equl 9 1`] = `
+<button
+  name="9"
+  type="button"
+>
+  9
+</button>
+`;
