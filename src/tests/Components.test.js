@@ -1,6 +1,8 @@
-import React from "react";
-import { render, screen, cleanup, fireEvent } from "@testing-library/react";
-import Calculator from "../components/calculator";
+import React from 'react';
+import {
+  render, screen, cleanup, fireEvent,
+} from '@testing-library/react';
+import Calculator from '../components/calculator';
 
 describe('calculator function testing', () => {
   test('test 5 + 4 to equl 9', () => {
@@ -12,18 +14,6 @@ describe('calculator function testing', () => {
     fireEvent.click(screen.getByText('='));
 
     expect(screen.getByText('9')).toMatchSnapshot();
-  });
-
-  test('calculator contains all buttons', () => {
-    const buttons = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
-
-    render(
-      <Calculator />,
-    );
-
-    for (const buton of buttons) {
-      expect(screen.getByText(buton)).toMatchSnapshot();
-    }
   });
 
   test('Test managment of buttons', () => {

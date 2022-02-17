@@ -7,13 +7,13 @@ describe('pages test snapshots', () => {
     render(<App />);
     const Home = screen.getByText('Home');
     fireEvent.click(Home);
-    expect(screen.getByText('Welcome to our page')).toMatchSnapshot();
+    expect(screen.getByText('Welcome to our page!')).toMatchSnapshot();
   });
   it('testing Quote page', () => {
     render(<App />);
-    const Quote = screen.getByText('Quotes');
+    const Quote = screen.getByText('Quote');
     fireEvent.click(Quote);
-    expect(screen.getByText('"We will always have STEM with us. Some things will drop out of the public eye and go away, but there will always be science, engineering, and technology. And there will always, always be mathematics". — Katherine Johnson, African-American mathematician')).toMatchSnapshot();
+    expect(screen.getByText('Mathematics is not about number,equation,scompulation or algorithm:It is about understanading')).toMatchSnapshot();
   });
   it('testing Calculator page', () => {
     render(<App />);

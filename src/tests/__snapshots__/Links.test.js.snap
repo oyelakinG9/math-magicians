@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages test snapshots testing Calculator page 1`] = `
+<button
+  id="zero"
+  name="0"
+  type="button"
+>
+  0
+</button>
+`;
+
+exports[`pages test snapshots testing Quote page 1`] = `
+<p>
+  Mathematics is not about number,equation,scompulation or algorithm:It is about understanading
+</p>
+`;
+
+exports[`pages test snapshots testing home page 1`] = `
+<h2>
+  Welcome to our page!
+</h2>
+`;
