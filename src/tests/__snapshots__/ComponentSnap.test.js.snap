@@ -10,6 +10,7 @@ Array [
   >
     <input
       id="result"
+      readOnly={true}
       type="text"
       value="0"
     />

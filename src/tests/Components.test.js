@@ -1,5 +1,7 @@
 import React from 'react';
-import {render, screen, cleanup, fireEvent,} from '@testing-library/react';
+import {
+  render, screen, cleanup, fireEvent,
+} from '@testing-library/react';
 import Calculator from '../components/calculator';
 
 it('5 + 4', () => {
